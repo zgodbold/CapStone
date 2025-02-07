@@ -1,0 +1,29 @@
+The following categories need to be filled out. Please exclude "$" and ","
+while also including a space between your answer and the next category.
+For the %Income Invested Yearly, %Income Saved Yearly, and %Income Spent Yearly,
+the percentages should equal 100% so you use 100% of you monthly income
+
+
+Total Monthly Income Post Tax
+
+%Income Invested Monthly
+
+%Income Saved Monthly
+
+%Income Spent Monthly
+
+Current Savings
+
+Current Total Invested
+
+Average Investment Return Yearly (%)
+
+Total Investment Return
+
+Student Loan Monthly Payment
+
+Housing Monthly Payment
+
+Car Monthly Payment
+
+Months You Would Like to Simulate
