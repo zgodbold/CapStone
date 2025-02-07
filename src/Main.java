@@ -7,6 +7,8 @@ public class Main {
 
     static FileInputStream file = null;
     ArrayList<MonthlyPayment> monthlyPayments = new ArrayList<>();
+    ArrayList<MonthlyIncome> monthlyIncomes = new ArrayList<>();
+
 
     public static void main(String[] args) {
         try {
