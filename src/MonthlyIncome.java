@@ -1,12 +1,11 @@
 public class MonthlyIncome {
+    private double totalMonthlyIncome;
 
-    private double income;
-    public MonthlyIncome(double income) {}
-
-    public double getIncome() {
-        return income;
+    public MonthlyIncome(double totalMonthlyIncome) {
+        this.totalMonthlyIncome = totalMonthlyIncome;
     }
 
-    public void setIncome(double income) {}
-
+    // Getters and Setters
+    public double getTotalMonthlyIncome() { return totalMonthlyIncome; }
+    public void setTotalMonthlyIncome(double totalMonthlyIncome) { this.totalMonthlyIncome = totalMonthlyIncome; }
 }

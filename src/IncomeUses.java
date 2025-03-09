@@ -1,32 +1,22 @@
 public class IncomeUses {
+    private double percentInvested;
+    private double percentSaved;
+    private double percentSpent;
 
-    private double[] income = new double[3];
-
-    public double[] setIncomeInvested(double amount) {
-        income[0] = amount;
-        return income;
+    public IncomeUses(double percentInvested, double percentSaved, double percentSpent) {
+        this.percentInvested = percentInvested;
+        this.percentSaved = percentSaved;
+        this.percentSpent = percentSpent;
     }
 
-    public double getIncomeInvested(double amount) {
-        return income[0];
-    }
+    // Getters and Setters
+    public double getPercentInvested() { return percentInvested; }
+    public void setPercentInvested(double percentInvested) { this.percentInvested = percentInvested; }
 
-    public double[] setIncomeSaved(double amount) {
-        income[1] = amount;
-        return income;
-    }
+    public double getPercentSaved() { return percentSaved; }
+    public void setPercentSaved(double percentSaved) { this.percentSaved = percentSaved; }
 
-    public double getIncomeSaved(double amount) {
-        return income[1];
-    }
-
-    public double[] setIncomeSpent(double amount) {
-        income[2] = amount;
-        return income;
-    }
-
-    public double getIncomeSpent(double amount) {
-        return income[2];
-    }
-
+    public double getPercentSpent() { return percentSpent; }
+    public void setPercentSpent(double percentSpent) { this.percentSpent = percentSpent; }
 }
+
