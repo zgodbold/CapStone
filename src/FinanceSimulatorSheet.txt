@@ -2,39 +2,27 @@ The following categories need to be filled out.
 Please include no space between your answer and the next category.
 For the %Income Invested Yearly, %Income Saved Yearly, and %Income Spent Yearly,
 the percentages should equal 100% so you use 100% of you monthly income.
+---BREAK---
+Total Monthly Income Post Tax: $50,000
 
-Total Monthly Income Post Tax:
-$50,000
+%Income Invested Monthly: 30%
 
-%Income Invested Monthly:
-30%
+%Income Saved Monthly: 30%
 
-%Income Saved Monthly:
-30%
+%Income Spent Monthly: 40%
 
-%Income Spent Monthly:
-40%
+Current Savings: $100,000
 
-Current Savings:
-%100,000
+Current Total Invested: $50,000
 
-Current Total Invested:
-50,000
+Average Investment Return Yearly (%): 7%
 
-Average Investment Return Yearly (%):
-7%
+Total Investment Return: $0
 
-Total Investment Return:
-$0
+Student Loan Monthly Payment: $500
 
-Student Loan Monthly Payment:
-$500
+Housing Monthly Payment: $2,400
 
-Housing Monthly Payment:
-$2,400
+Car Monthly Payment: $750
 
-Car Monthly Payment:
-$750
-
-Months You Would Like to Simulate:
-24
+Months You Would Like to Simulate: 24

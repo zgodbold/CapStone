@@ -14,7 +14,7 @@ public class Main {
             // Skip the introductory text
             while (scanner.hasNextLine()) {
                 String line = scanner.nextLine().trim();
-                if (line.startsWith("Total Monthly Income Post Tax:")) {
+                if (line.startsWith("---BREAK---")) {
                     break; // Stop skipping when we reach the data
                 }
             }
@@ -117,6 +117,12 @@ public class Main {
         double totalExpenses = monthlyPayment.getStudentLoanPayment() + monthlyPayment.getHousingPayment() + monthlyPayment.getCarPayment() + spent;
         investments.setCurrentSavings(investments.getCurrentSavings() - totalExpenses);
 
+        if(investments.getCurrentSavings() < 0) {
+            double difference = investments.getCurrentSavings() * -1;
+            investments.setCurrentTotalInvested(investments.getCurrentTotalInvested() - difference);
+            investments.setCurrentSavings(0);
+        }
+
         // Add monthly results to LinkedList
         simulationResults.add(new MonthlyResult(
                 currentMonth,
@@ -125,6 +131,8 @@ public class Main {
                 investments.getTotalInvestmentReturn()
         ));
 
+        investments.setCurrentTotalInvested(investments.getCurrentTotalInvested() + investments.getTotalInvestmentReturn());
+        investments.setTotalInvestmentReturn(0);
         // Recursive call for the next month
         simulate(incomeUses, monthlyPayment, monthlyIncome, investments, monthsLeft - 1, simulationResults, currentMonth + 1);
     }
