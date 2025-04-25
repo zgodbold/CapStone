@@ -1,14 +1,21 @@
 public class MonthlyResult {
-    private int month;
-    private double savings;
-    private double invested;
-    private double investmentReturn;
+    private final int month;
+    private final double savings;
+    private final double invested;
+    private final double investmentReturn;
+    private final double spent;
+    private final double investedAmount;
+    private final double income;
 
-    public MonthlyResult(int month, double savings, double invested, double investmentReturn) {
+    public MonthlyResult(int month, double savings, double invested, double investmentReturn,
+                         double spent, double investedAmount, double income) {
         this.month = month;
         this.savings = savings;
         this.invested = invested;
         this.investmentReturn = investmentReturn;
+        this.spent = spent;
+        this.investedAmount = investedAmount;
+        this.income = income;
     }
 
     // Getters
@@ -16,10 +23,13 @@ public class MonthlyResult {
     public double getSavings() { return savings; }
     public double getInvested() { return invested; }
     public double getInvestmentReturn() { return investmentReturn; }
+    public double getSpent() { return spent; }
+    public double getInvestedAmount() { return investedAmount; }
+    public double getIncome() { return income; }
 
     @Override
     public String toString() {
-        return String.format("Month %d: Savings = $%,.2f, Invested = $%,.2f, Investment Return = $%,.2f",
-                month, savings, invested, investmentReturn);
+        return String.format("Month %d: Income = $%,.2f, Spent = $%,.2f, New Investments = $%,.2f, Savings = $%,.2f, Total Invested = $%,.2f, Return = $%,.2f",
+                month, income, spent, investedAmount, savings, invested, investmentReturn);
     }
 }

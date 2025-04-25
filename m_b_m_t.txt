@@ -1,0 +1,93 @@
+Month 1:
+  Income: $100.00
+  Spent: $50.00
+  Invested: $50.00
+  Saved: $25.00
+  Savings Balance: $1,025.00
+  Total Invested: $5,050.00
+  Investment Return: $25.25
+
+Month 2:
+  Income: $100.00
+  Spent: $50.00
+  Invested: $50.00
+  Saved: $25.00
+  Savings Balance: $1,050.00
+  Total Invested: $5,125.25
+  Investment Return: $25.63
+
+Month 3:
+  Income: $100.00
+  Spent: $50.00
+  Invested: $50.00
+  Saved: $25.00
+  Savings Balance: $1,075.00
+  Total Invested: $5,200.88
+  Investment Return: $26.00
+
+Month 4:
+  Income: $100.00
+  Spent: $50.00
+  Invested: $50.00
+  Saved: $25.00
+  Savings Balance: $1,100.00
+  Total Invested: $5,276.88
+  Investment Return: $26.38
+
+Month 5:
+  Income: $100.00
+  Spent: $50.00
+  Invested: $50.00
+  Saved: $25.00
+  Savings Balance: $1,125.00
+  Total Invested: $5,353.27
+  Investment Return: $26.77
+Month 6:
+  Income: $100.00
+  Spent: $50.00
+  Invested: $50.00
+  Saved: $25.00
+  Savings Balance: $1,150.00
+  Total Invested: $5,403.27
+  Investment Return: $27.02
+
+Month 7:
+  Income: $100.00
+  Spent: $50.00
+  Invested: $50.00
+  Saved: $25.00
+  Savings Balance: $1,175.00
+  Total Invested: $5,480.29
+  Investment Return: $27.40
+
+Month 8:
+  Income: $100.00
+  Spent: $50.00
+  Invested: $50.00
+  Saved: $25.00
+  Savings Balance: $1,200.00
+  Total Invested: $5,557.69
+  Investment Return: $27.79
+
+Month 9:
+  Income: $100.00
+  Spent: $50.00
+  Invested: $50.00
+  Saved: $25.00
+  Savings Balance: $1,225.00
+  Total Invested: $5,635.48
+  Investment Return: $28.18
+
+=== SIMULATION STATE ===
+Current Savings: $1,225.00
+Current Total Invested: $5,635.48
+Investment Return Rate: 6.00%
+Last Month Income: $100.00
+Last Month Invested: $50.00
+Last Month Saved: $25.00
+Last Month Spent: $50.00
+Student Loan Payment: $10.00
+Housing Payment: $10.00
+Car Payment: $5.00
+=======================
+
