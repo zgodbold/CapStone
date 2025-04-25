@@ -11,6 +11,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner userInputScanner = new Scanner(System.in);
 
+        System.out.println("Welcome to the Finance Management System!");
         System.out.println("Choose simulation mode:");
         System.out.println("1. Use predefined simulation from file");
         System.out.println("2. Enter data month by month");
